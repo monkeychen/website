@@ -1,0 +1,15 @@
+#others
+github.com
+code.google.com
+.idea/
+*.iml
+*.exe
+*.a
+.project
+
+dbtest.php
+opencart/
+timecart/config.php
+timecart/admin/config.php
+
+blog/config.inc.php
