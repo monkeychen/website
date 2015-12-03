@@ -11,5 +11,6 @@ dbtest.php
 opencart/
 timecart/config.php
 timecart/admin/config.php
+timecart/**/cache/*
 
 blog/config.inc.php
