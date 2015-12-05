@@ -7,6 +7,13 @@ code.google.com
 *.a
 .project
 
+#laravel
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+
 dbtest.php
 opencart/
 timecart/config.php
