@@ -18,7 +18,7 @@ dbtest.php
 opencart/
 timecart/config.php
 timecart/admin/config.php
-timecart/**/cache/*
+timecart/system/storage/cache/*
 timecart/system/storage/logs/
 
 blog/config.inc.php
