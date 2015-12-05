@@ -19,5 +19,6 @@ opencart/
 timecart/config.php
 timecart/admin/config.php
 timecart/**/cache/*
+timecart/system/storage/logs/
 
 blog/config.inc.php
