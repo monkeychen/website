@@ -20,6 +20,6 @@ timecart/config.php
 timecart/admin/config.php
 timecart/system/storage/cache/*
 timecart/system/storage/logs/
-timecart/image/cache/catalog/demo/
+timecart/image/cache/*
 
 blog/config.inc.php
