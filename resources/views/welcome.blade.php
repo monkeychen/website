@@ -65,7 +65,7 @@
                 </ul>
             </li>
         </ul>
-        <form class="navbar-form navbar-right" role="search">
+        <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="搜索">
             </div>
@@ -73,6 +73,10 @@
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             </button>
         </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+        </ul>
         <!--/.nav-collapse -->
     </div>
 </nav>
