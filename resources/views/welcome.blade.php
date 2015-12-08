@@ -53,31 +53,33 @@
             </button>
             <a class="navbar-brand" href="http://simiam.com"><img class="logo_img" src="/static/images/logo.png"></a>
         </div>
-        <ul class="nav navbar-nav navbar-left">
-            <li><a href="http://simiam.com">首页</a></li>
-            <li role="presentation" class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                   aria-haspopup="true" aria-expanded="false">应用 <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li ><a href="http://blog.simiam.com" target="_blank">博客</a></li>
-                    <li><a href="http://100.simiam.com" target="_blank">教研平台</a></li>
-                    <li><a href="http://timecart.simiam.com" target="_blank">商城演示</a></li>
-                </ul>
-            </li>
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="搜索">
-            </div>
-            <button type="submit" class="btn btn-default">
-                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-            </button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">登录</a></li>
-            <li><a href="#">注册</a></li>
-        </ul>
-        <!--/.nav-collapse -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="http://simiam.com">首页</a></li>
+                <li role="presentation" class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">应用 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li ><a href="http://blog.simiam.com" target="_blank">博客</a></li>
+                        <li><a href="http://100.simiam.com" target="_blank">教研平台</a></li>
+                        <li><a href="http://timecart.simiam.com" target="_blank">商城演示</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="搜索">
+                </div>
+                <button type="submit" class="btn btn-default">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 
