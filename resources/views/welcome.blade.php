@@ -13,24 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>
-        body {
-            padding-top: 50px;
-        }
-
-        .logo_img {
-            width: 100px;
-            height: 25px;
-        }
-
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-    </style>
-
+    <link href="/static/css/common.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -71,7 +54,7 @@
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="搜索">
                 </div>
-                <button type="submit" class="btn btn-default">
+                <button type="submit" class="btn btn-success">
                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 </button>
             </form>
@@ -84,11 +67,53 @@
 </nav>
 
 <div class="container">
-
-    <div class="starter-template">
-        <h1>网站维护中...</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#bannerCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#bannerCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="second-slide" src="/static/images/img2.jpg" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>台湾</h1>
+                                <p>台湾</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="third-slide" src="/static/images/img3.jpg" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>台湾</h1>
+                                <p>台湾</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#bannerCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#bannerCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!-- /.carousel -->
+        </div>
+        <div class="col-md-6"></div>
     </div>
 
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="pull-right"><a href="#">回到顶部</a></p>
+        <p>&copy; 2015 Company, Inc. </p>
+    </footer>
 </div>
 <!-- /.container -->
 
