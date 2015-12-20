@@ -44,7 +44,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                        aria-haspopup="true" aria-expanded="false">应用 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li ><a href="http://blog.simiam.com" target="_blank">博客</a></li>
+                        <li ><a href="http://tech.simiam.com" target="_blank">Github博客</a></li>
                         <li><a href="http://100.simiam.com" target="_blank">教研平台</a></li>
                         <li><a href="http://timecart.simiam.com" target="_blank">商城演示</a></li>
                     </ul>
@@ -80,7 +80,6 @@
                         <img class="second-slide" src="/static/images/img2.jpg" alt="Second slide">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>台湾</h1>
                                 <p>台湾</p>
                             </div>
                         </div>
@@ -89,7 +88,6 @@
                         <img class="third-slide" src="/static/images/img3.jpg" alt="Third slide">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>台湾</h1>
                                 <p>台湾</p>
                             </div>
                         </div>
