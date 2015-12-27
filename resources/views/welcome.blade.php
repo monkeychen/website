@@ -1,27 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/static/images/icon.png">
-
-    <title>Simiam's site</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/css/common.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -115,15 +93,41 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="content_left">
+d
+            </div>
+        </div>
+        <div class="col-md-8 content_right">
+            <div class="row content_right_item">
+                <div class="col-md-4">
+                    <img src="/static/images/img6.jpg">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        文章标题
+                    </div>
+                    <div class="row">
+                        文章来源
+                    </div>
+                    <div class="row">
+                        内容摘要
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p class="pull-right"><a href="#">回到顶部</a></p>
-        <p>&copy; 2015 Company, Inc. </p>
-    </footer>
 </div>
-<!-- /.container -->
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2015 <a href="http://simiam.com">Simiam</a> </p>
+    </div>
+</footer>
+
 
 
 <!-- Bootstrap core JavaScript
@@ -132,4 +136,26 @@
 <script src="/static/js/jquery/jquery-1.11.3.min.js"></script>
 <script src="/static/js/bootstrap/bootstrap.min.js"></script>
 </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/images/icon.png">
+
+    <title>Simiam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/common.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 </html>

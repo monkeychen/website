@@ -1,6 +1,6 @@
 body {
     padding-top: 50px;
-    /*background-color: #e8e9eb;*/
+    background-color: #e5e5e5;
 }
 
 .logo_img {
@@ -12,7 +12,7 @@ body {
 .carousel {
     margin-top: 20px;
     height: 300px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -43,4 +43,33 @@ body {
 
 .footer {
     border-top: solid 1px #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.footer .container p {
+    padding-top: 5px;
+}
+
+.content_left {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.content_right {
+
+}
+
+.content_right_item {
+    height: 190px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.content_right_item img {
+    width: 220px;
+    height: 160px;
 }
