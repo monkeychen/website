@@ -119,20 +119,64 @@
 d
             </div>
         </div>
-        <div class="col-md-8 content_right">
-            <div class="row content_right_item">
+        <div class="col-md-8 article_list">
+            <div class="row article_list_item">
                 <div class="col-md-4">
                     <img src="/static/images/img6.jpg">
                 </div>
                 <div class="col-md-8">
                     <div class="row">
-                        文章标题
+                        <div class="col-md-12 article_title">
+                            关键业务系统的JVM启动参数推荐
+                        </div>
                     </div>
                     <div class="row">
-                        文章来源
+                        <div class="col-md-12 article_subtitle">
+                            2015-12-11
+                            <a href="http://calvin1978.blogcn.com/articles/jvmoption-2.html" target="_blank">
+                                江南白衣
+                            </a>
+                        </div>
                     </div>
                     <div class="row">
-                        内容摘要
+                        <div class="col-md-12 article_summary">
+                            <p>
+                                在关键的业务系统里，除了继续追求技术人员最爱的高吞吐与低延时之外，系统的稳定性与出现问题时排查的便捷性也很重要。
+                                这是本文的一个原则，后面也会一次又一次的强调，所以与网上其他的文章略有不同，请各位JVM调优高手和运维老大多提意见。
+                            </p>
+                            <p><a href="http://calvin1978.blogcn.com/articles/jvmoption-2.html" target="_blank">阅读全文</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row article_list_item">
+                <div class="col-md-4">
+                    <img src="/static/images/img11.png">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12 article_title">
+                            并发框架Disruptor译文
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 article_subtitle">
+                            2015-12-11
+                            <a href="http://ifeve.com/disruptor/" target="_blank">
+                                并发编程网
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 article_summary">
+                            <p>
+                                Martin Fowler在自己网站上写了一篇LMAX架构的文章，在文章中他介绍了LMAX是一种新型零售金融交易平台，
+                                它能够以很低的延迟产生大量交易。这个系统是建立在JVM平台上，其核心是一个业务逻辑处理器，
+                                它能够在一个线程里每秒处理6百万订单。
+                            </p>
+                            <p><a href="http://ifeve.com/disruptor/" target="_blank">阅读全文</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -141,12 +185,13 @@ d
 
 
 </div>
+
 <!-- FOOTER -->
-<footer class="footer">
+{{--<footer class="footer">
     <div class="container">
         <p>&copy; 2015 <a href="http://simiam.com">Simiam</a> </p>
     </div>
-</footer>
+</footer>--}}
 
 
 
