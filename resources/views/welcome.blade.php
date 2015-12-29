@@ -151,10 +151,10 @@ d
             </div>
 
             <div class="row article_list_item">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-4">
                     <img class="img-responsive" src="/static/images/img11.png">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-xs-8">
                     <div class="row">
                         <div class="col-md-12 article_title">
                             并发框架Disruptor译文
