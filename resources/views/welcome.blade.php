@@ -103,13 +103,13 @@
         </div>
         <div class="col-md-6 banner_left">
             <div class="row">
-                <div class="col-md-8" style="padding: 0 5px 5px 0;"><img src="/static/images/img9.jpg"></div>
-                <div class="col-md-4" style="padding: 0 0 5px 5px;"><img src="/static/images/img5.jpg"></div>
+                <div class="col-md-8 col-xs-8" style="padding: 0 5px 5px 0;"><img class="img-responsive" src="/static/images/img9.jpg"></div>
+                <div class="col-md-4 col-xs-4" style="padding: 0 0 5px 5px;"><img class="img-responsive" src="/static/images/img5.jpg"></div>
             </div>
             <div class="row">
-                <div class="col-md-4" style="padding: 5px 5px 0 0"><img src="/static/images/img6.jpg"></div>
-                <div class="col-md-4" style="padding: 5px 5px 0 5px"><img src="/static/images/img7.jpg"></div>
-                <div class="col-md-4" style="padding: 5px 0 0 5px"><img src="/static/images/img8.jpg"></div>
+                <div class="col-md-4 col-xs-4" style="padding: 5px 5px 0 0"><img class="img-responsive" src="/static/images/img6.jpg"></div>
+                <div class="col-md-4 col-xs-4" style="padding: 5px 5px 0 5px"><img class="img-responsive" src="/static/images/img7.jpg"></div>
+                <div class="col-md-4 col-xs-4" style="padding: 5px 0 0 5px"><img class="img-responsive" src="/static/images/img8.jpg"></div>
             </div>
         </div>
     </div>
@@ -121,10 +121,10 @@ d
         </div>
         <div class="col-md-8 article_list">
             <div class="row article_list_item">
-                <div class="col-md-4">
-                    <img src="/static/images/img6.jpg">
+                <div class="col-md-4 col-xs-4">
+                    <img class="img-responsive" src="/static/images/img6.jpg">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-xs-8">
                     <div class="row">
                         <div class="col-md-12 article_title">
                             关键业务系统的JVM启动参数推荐
@@ -152,7 +152,7 @@ d
 
             <div class="row article_list_item">
                 <div class="col-md-4">
-                    <img src="/static/images/img11.png">
+                    <img class="img-responsive" src="/static/images/img11.png">
                 </div>
                 <div class="col-md-8">
                     <div class="row">
