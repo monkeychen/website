@@ -43,9 +43,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-haspopup="true" aria-expanded="false">应用 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li ><a href="http://tech.simiam.com" target="_blank">Github博客</a></li>
                             <li><a href="http://100.simiam.com" target="_blank">教研平台</a></li>
                             <li><a href="http://timecart.simiam.com" target="_blank">商城演示</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">书签 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://tech.simiam.com" target="_blank">Github博客</a></li>
+                            <li><a href="https://www.inoreader.com/dashboard" target="_blank">Inoreader</a></li>
                         </ul>
                     </li>
                 </ul>
