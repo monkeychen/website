@@ -48,7 +48,7 @@ run-mysql:
 	docker run -i -d --name=mysql -h mysql -p 3306:3306 -v /home/simiam/opt/data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=***** -t simiam/mysql
 
 in-mysql:
-	docker run -i --name=mysql -h mysql -p 3306:3306  -v /home/simiam/data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=***** -t simiam/mysql /bin/bash
+	docker run -i --name=mysql -h mysql -p 3306:3306  -v /home/simiam/opt/data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=***** -t simiam/mysql /bin/bash
 
 build-node:
 	docker build -t simiam/node ./node
