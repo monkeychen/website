@@ -10,14 +10,17 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+function toWelcomeView() {
+    return view('welcome');
+}
 
 Route::get('/', function () {
-    return view('welcome');
+    return toWelcomeView();
 })->middleware('guest');
 
 Route::get('/home', function () {
-    return view('welcome');
-});
+    return toWelcomeView();
+})->middleware('guest');
 
 // Authentication Routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');

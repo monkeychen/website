@@ -82,7 +82,7 @@
     <!-- FOOTER -->
     <div id="footer">
         <div class="container">
-            <p class="text-info">&copy; 2015 <a href="http://simiam.com">Simiam</a> </p>
+            <p class="text-info">&copy; {{ $cp_year }} <a href="http://simiam.com">Simiam</a> </p>
         </div>
     </div>
 </div>

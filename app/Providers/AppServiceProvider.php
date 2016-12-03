@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->setGlobalViewParameters();
     }
 
     /**
@@ -24,5 +24,10 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+    }
+    
+    private function setGlobalViewParameters() {
+        $cpYear = '2015 ~ ' . date("Y");
+        view()->share('cp_year', $cpYear);
     }
 }

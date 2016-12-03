@@ -16,6 +16,7 @@ class CreateArticleCategoryTable extends Migration
             $table->increments('id');
             $table->string('name', 64);
             $table->string('code', 128);
+            $table->string('parent_code', 128)->nullable();
             $table->integer('position')->nullable();
             $table->timestamps();
         });
