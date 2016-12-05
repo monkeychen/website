@@ -20,6 +20,7 @@ class CreatePhotosTable extends Migration
             $table->string('url', 512);
             $table->integer('position')->nullable();
             $table->boolean('is_hidden')->default(false);
+            $table->integer('user_id');
             $table->timestamps();
         });
     }

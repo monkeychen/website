@@ -11,6 +11,7 @@
 |
 */
 function toWelcomeView() {
+    
     return view('welcome');
 }
 
@@ -20,7 +21,7 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return toWelcomeView();
-})->middleware('guest');
+});
 
 // Authentication Routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');

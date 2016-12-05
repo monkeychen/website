@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateArticlesTable extends Migration
+class CreateRssSiteTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,10 @@ class CreateArticlesTable extends Migration
      */
     public function up()
     {
-        Schema::create('articles', function (Blueprint $table) {
+        Schema::create('rss_site', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('title', 256);
-            $table->integer('category_id');
-            $table->string('author', 128);
-            $table->string('summary', 1024);
-            $table->string('src_url', 256)->nullable();
+            $table->string('site_url', 512);
+            $table->string('descr', 512)->nullable();
             $table->integer('user_id');
             $table->timestamps();
         });
@@ -31,6 +28,6 @@ class CreateArticlesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('articles');
+        Schema::drop('rss_site');
     }
 }
