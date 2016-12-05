@@ -14,6 +14,7 @@ class CreateRssSiteTable extends Migration
     {
         Schema::create('rss_site', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('site_name', 128);
             $table->string('site_url', 512);
             $table->string('descr', 512)->nullable();
             $table->integer('user_id');
