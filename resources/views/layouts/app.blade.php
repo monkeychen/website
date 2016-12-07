@@ -37,23 +37,21 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="http://simiam.com">首页</a></li>
-                <li role="presentation" class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">应用 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://100.simiam.com" target="_blank">教研平台</a></li>
-                        <li><a href="http://timecart.simiam.com" target="_blank">商城演示</a></li>
-                    </ul>
-                </li>
-                <li role="presentation" class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">书签 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://tech.simiam.com" target="_blank">Github博客</a></li>
-                        <li><a href="https://www.inoreader.com/dashboard" target="_blank">Inoreader</a></li>
-                    </ul>
-                </li>
+                @foreach($topMenus as $topMenu)
+                    @if(count($topMenu->subMenus) > 0)
+                        <li role="presentation" class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">{{$topMenu->name}} <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                @foreach($topMenu->subMenus as $subMenu)
+                                <li><a href="{{$subMenu->link_url}}" target="_blank">{{$subMenu->name}}</a></li>
+                                @endforeach
+                            </ul>
+                        </li>
+                    @else
+                        <li><a href="{{$topMenu->link_url}}">{{$topMenu->name}}</a></li>
+                    @endif
+                @endforeach
             </ul>
             <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
