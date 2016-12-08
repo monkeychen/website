@@ -115,7 +115,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12 article_subtitle">
-                                    2015-12-11
+                                    {{$article->created_at}}
                                     <a href="{{$article->src_url}}" target="_blank">
                                         {{$article->author}}
                                     </a>
