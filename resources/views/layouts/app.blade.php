@@ -53,17 +53,17 @@
                     @endif
                 @endforeach
             </ul>
-            <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="搜索">
-                </div>
-                <button type="submit" class="btn btn-success">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </button>
-            </form>
+            {{--<form class="navbar-form navbar-left" role="search">--}}
+                {{--<div class="form-group">--}}
+                    {{--<input type="text" class="form-control" placeholder="搜索">--}}
+                {{--</div>--}}
+                {{--<button type="submit" class="btn btn-success">--}}
+                    {{--<span class="glyphicon glyphicon-search" aria-hidden="true"></span>--}}
+                {{--</button>--}}
+            {{--</form>--}}
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
-                    <li><a href="/auth/register">注册</a></li>
+                    {{--<li><a href="/auth/register">注册</a></li>--}}
                     <li><a href="/auth/login">登录</a></li>
                 @else
                     <li class="navbar-text">{{ Auth::user()->name }}</li>
