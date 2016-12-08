@@ -21,6 +21,7 @@ class CreatePhotosTable extends Migration
             $table->integer('position')->nullable();
             $table->boolean('is_hidden')->default(false);
             $table->integer('user_id');
+            $table->string('area_code', 32);
             $table->timestamps();
         });
     }

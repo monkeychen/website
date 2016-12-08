@@ -14,8 +14,13 @@ use site\User;
 
 class ArticleRepository
 {
-    public function forUser(User $user)
+    /**
+     * @param User $user
+     * @param int $limit default 10
+     * @return mixed
+     */
+    public function forUser(User $user, $limit = 10)
     {
-        return Article::where('user_id', $user->id)->orderBy('created_at', 'asc')->get();
+        return Article::where('user_id', $user->id)->orderBy('created_at', 'asc')->take($limit)->get();
     }
 }

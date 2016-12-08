@@ -14,8 +14,26 @@ use site\User;
 
 class PhotoRepository
 {
-    public function forUser(User $user)
+    public function forUser(User $user, $limit = 10)
     {
-        return Photo::where('user_id', $user->id)->orderBy('position', 'asc')->get();
+        return Photo::where('user_id', $user->id)->orderBy('position', 'asc')->take($limit)->get();
+    }
+
+    public function classifyPhotos($photos)
+    {
+        $result = [
+            'slide' => [],
+            'top' => [],
+            'bottom' => [],
+        ];
+        if (is_null($photos) || !isset($photos))
+        {
+            return $result;
+        }
+        foreach ($photos as $photo) {
+            $areaCode = $photo->area_code;
+            $result[$areaCode][] = $photo;
+        }
+        return $result;
     }
 }

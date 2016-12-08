@@ -10,4 +10,6 @@ class ArticleCategory extends Model
     protected $table = 'article_category';
     
     public $subCategories = array();
+    
+    public $articles = array();
 }

@@ -45,13 +45,19 @@ class DashboardController extends Controller
         {
             $user = User::where('id', 1)->first(); // User::find(1);
         }
-        $articles = $this->articleRepository->forUser($user);
         $photos = $this->photoRepository->forUser($user);
+        $photoArr = array();
+        foreach ($photos as $photo) {
+            $photoArr[$photo->position] = $photo;
+        }
+        $articles = $this->articleRepository->forUser($user);
         $categories = $this->articleCategoryRepository->findOrderedCategories();
+        foreach ($categories as $category) {
+            $this->articleCategoryRepository->classifyArticles($category, $articles);
+        }
 
         return view('welcome', [
-            'articles' => $articles,
-            'photos' => $photos,
+            'photoArr' => $photoArr,
             'categories' => $categories,
         ]);
     }

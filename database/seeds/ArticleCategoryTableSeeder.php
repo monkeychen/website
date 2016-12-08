@@ -28,22 +28,22 @@ class ArticleCategoryTableSeeder extends Seeder
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
-            [
-                'name' => 'Java',
-                'code' => 'java',
-                'parent_code' => 'technology',
-                'position' => 21,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s'),
-            ],
-            [
-                'name' => 'Php',
-                'code' => 'php',
-                'parent_code' => 'technology',
-                'position' => 22,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s'),
-            ],
+//            [
+//                'name' => 'Java',
+//                'code' => 'java',
+//                'parent_code' => 'technology',
+//                'position' => 21,
+//                'created_at' => date('Y-m-d H:i:s'),
+//                'updated_at' => date('Y-m-d H:i:s'),
+//            ],
+//            [
+//                'name' => 'Php',
+//                'code' => 'php',
+//                'parent_code' => 'technology',
+//                'position' => 22,
+//                'created_at' => date('Y-m-d H:i:s'),
+//                'updated_at' => date('Y-m-d H:i:s'),
+//            ],
         ]);
     }
 }
