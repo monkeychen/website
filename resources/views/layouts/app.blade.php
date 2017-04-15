@@ -29,9 +29,10 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <style type="text/css">
+    {{--<style type="text/css">
         @import url(//www.google.com/cse/api/branding.css);
-    </style>
+    </style>--}}
+    <link href="/static/css/branding.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -85,7 +86,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <div class="cse-branding-right" style="background-color:#FFFFFF;color:#000000;margin-top: 13px;">
                     <div class="cse-branding-form">
-                        <form action="http://www.google.com.hk" id="cse-search-box" target="_blank">
+                        <form action="https://www.google.com.hk" id="cse-search-box" target="_blank">
                             <div>
                                 <input type="hidden" name="cx" value="partner-pub-5437280150717848:9370427216" />
                                 <input type="hidden" name="ie" value="UTF-8" />
