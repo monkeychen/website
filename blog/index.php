@@ -1,2 +1,3 @@
 <?php
-redirect("http://tech.simiam.com");
+header("Location: http://cloudnoter.com");
+exit;

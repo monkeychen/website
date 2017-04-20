@@ -73,7 +73,7 @@
             {{--</form>--}}
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
-                    <li><a href="/auth/register">注册</a></li>
+                    {{--<li><a href="/auth/register">注册</a></li>--}}
                     <li><a href="/auth/login">登录</a></li>
                 @else
                     <li class="navbar-text">{{ Auth::user()->name }}</li>
