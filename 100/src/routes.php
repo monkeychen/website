@@ -15,7 +15,9 @@ $app->get('/[{name}]', function (Request $request, Response $response, array $ar
 
 $app->get('/api/{name}', function (Request $request, Response $response) {
     $name = $request->getAttribute('name');
-    $response->getBody()->write("API-test: $name");
+    //$response->getBody()->write("API-test: $name");
+    $data = array('name' => "$name", 'age' => 32);
+    $newResponse = $response->withJson($data);
 
-    return $response;
+    return $newResponse;
 });
